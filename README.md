@@ -271,7 +271,6 @@ git rebase -i HEAD~{n}
 
 >Edit the summary shown to you by the rebase command, leaving the commit you want to be the main commit as "pick" and changing all subsequent "pick" commands as "squash" or "s"
 
-![2](https://user-images.githubusercontent.com/48657780/126628354-fdbc4a92-5fd0-432f-a8cb-c8b4b3f3c9d8.jpg)
 
 Write/quit the editor twice (the second screen would allow you to change the commit message)  <br>
 At this point, your commits are squashed into one. 
