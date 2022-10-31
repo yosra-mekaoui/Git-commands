@@ -277,7 +277,6 @@ git rebase -i HEAD~{n}
 Write/quit the editor twice (the second screen would allow you to change the commit message)  <br>
 At this point, your commits are squashed into one. 
 
-![3](https://user-images.githubusercontent.com/48657780/126631425-f1a9a55e-b863-4e00-a0dd-6f287fc264df.jpg)
 
 >Run the following command to force a push of the new, consolidated commit:
 ```
