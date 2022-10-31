@@ -264,7 +264,6 @@ git stash clear
 ```
 git rebase -i HEAD~{n}
 ```
-![1](https://user-images.githubusercontent.com/48657780/126626468-1195bbde-b8c4-4286-83fb-1655982bf71d.jpg)
 
 
 ### *Squash*
