@@ -18,10 +18,7 @@
 - [Dealing with GitHub](https://github.com/Abanoub-Asaad/common-git-commands#dealing-with-github)
  ---
 
-### *Why git and github?*
-*1. to keep track of project snapshots. //git*  
-*2. to coordinate work between members of the team remotely. //github* 
-<br />  
+ 
 
 ### *Git basic commands*
 >initializing git repo in your local directory:
