@@ -265,5 +265,55 @@ git stash clear
 git rebase -i HEAD~{n}
 ```
 
+### *Squash*
+*To combine two or more commits into a single commit, A commit is squashed into the commit above it:*
+
+>Edit the summary shown to you by the rebase command, leaving the commit you want to be the main commit as "pick" and changing all subsequent "pick" commands as "squash" or "s"
+
+
+Write/quit the editor twice (the second screen would allow you to change the commit message)  <br>
+At this point, your commits are squashed into one. 
+
+
+>Run the following command to force a push of the new, consolidated commit:
+```
+git push -f
+```
+<br />  
+
+### *Dealing with github*
+*note: origin is an alias to the url of github rebo*
+```
+git remote add origin <github_repo_url>
+```
+>to show the remote server:
+```
+git remote
+```
+>to show the url of the remote server(github repo):
+```
+git remote -v
+```
+>pushing to remote server, example `git push origin main`
+```
+git push <remote> <branch>
+```
+> to get the code from github repo, example `git pull origin master`
+```
+git pull <remote> <branch>
+```
+>to pull the code before pushing it:
+```
+git push -u <remote> <branch>
+```
+>force a push when git rejects your `git push` command, because you made changes that may overwrite the previous commits, you can refer to this for more info:
+>https://git-scm.com/docs/git-push#:~:text=To%20force%20a%20push%20to,push%20to%20the%20master%20branch). 
+```
+git push -f
+```
+>to get a clone of the repo locally
+```
+git clone <github_repo_url>
+```
 
 <br />  
